@@ -46,7 +46,7 @@ public class FabricantFigures implements MouseListener,EventListener{
 
 		this.points_cliques[this.nb_points_cliques-1] = new Point(e.getX(),e.getY());
 		if(this.nb_points_cliques == figure_en_cours_de_fabrication.nbClics()){
-			// la figure est complète, on la fabrique
+			// la figure est complete, on la fabrique
 			this.figure_en_cours_de_fabrication.modifierPoints(this.points_cliques);
 			DessinFigures a = (DessinFigures)(e.getSource());
 			Graphics b = a.getGraphics();
@@ -56,7 +56,7 @@ public class FabricantFigures implements MouseListener,EventListener{
 			a.ajoute(this.figure_en_cours_de_fabrication);
 			a.supprimeAuditeurs();
 			
-			// préparation pour la fabrication d'une nouvelle figure
+			// preparation pour la fabrication d'une nouvelle figure
 			
 				this.nb_points_cliques = 0;
 				this.points_cliques = null;
