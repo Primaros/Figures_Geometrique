@@ -9,7 +9,7 @@ En plus de cer cles, il doit être possible de réaliser les polygones suivant :
 * triangle
 * carré
 * rectangle
-* quadrilatere
+* quadrilatere 
 La possibilité d'effacer l'écran, de sauvegarder ou charger des dessins précédemment réalisé,
 ou encore de prendre des captures d'écran doivent être implémentée.
 Nous devions aussi implémenter le faite de pouvoir manipuler les formes présente sur l'écran.
@@ -33,9 +33,10 @@ Dans le menu du haut, il est possible de choisir entre :
 Il suffit ensuite de cliquer sur l'écran pour placer les sommets des formes (
 triangles: 3; carré: 2; rectangle: 3; quadrilatere: 4; cercle: 2).
 ![Basic triangle](screenshoot/drawing.png)
-* Tracer : Dessiner à l'écran en cliquant
+* Tracer : Dessiner à l'écran en cliquant 
 ![Free drawing](screenshoot/freedrawing.png)
 * Manipuler : Cliquer sur un sommet de figure pour le déplacer. Cliquer sur le point d'un tracé permet de le déplacer.
 ![Editing](screenshoot/editing.png)
+
 Au milieu de la fenêtre, se trouve l'écran.
 Dans le bas, il est possible de sauvegarder les figures tracées, avec charger de charger la précédente sauvegarde, et avec screenshot de prendre une capture d'écran. 
